@@ -1,0 +1,15 @@
+{
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "files.encoding": "utf8",
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.insertFinalNewline": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "git.ignoreLimitWarning": true,
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "tslint.alwaysShowStatus": true,
+  "tslint.configFile": "tslint.json",
+}
