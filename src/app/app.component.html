@@ -1,0 +1,34 @@
+<h1>Virtual Scrolling Sample</h1>
+<div>
+  List Count: <input type="number" [(ngModel)]="listSize">
+</div>
+<div style="margin-top: 10px;">
+  <div style="display: inline-block; margin-right: 10px;">
+    <div>
+      Basic Scrolling
+    </div>
+    <div>
+      <button (click)="setBasicList(listSize)">Apply</button>
+      <button (click)="setBasicList(0)">Clear</button>
+    </div>
+    <div>
+      <div style="width: 200px; height: 200px; border: 1px solid black; overflow-y: auto;">
+        <div *ngFor="let item of basicList" style="height: 20px;">{{ item }}</div>
+      </div>
+    </div>
+  </div>
+  <div style="display: inline-block;">
+    <div>
+      Virtual Scrolling
+    </div>
+    <div>
+      <button (click)="setVirtualList(listSize)">Apply</button>
+      <button (click)="setVirtualList(0)">Clear</button>
+    </div>
+    <div>
+      <cdk-virtual-scroll-viewport itemSize="20" style="width: 200px; height: 200px; border: 1px solid black;">
+        <div *cdkVirtualFor="let item of virtualList" style="height: 20px;">{{ item }}</div>
+      </cdk-virtual-scroll-viewport>
+    </div>
+  </div>
+</div>
