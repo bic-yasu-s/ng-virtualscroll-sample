@@ -1,6 +1,6 @@
 # 概要
 
-`Angular CDK` に追加された `Virtual Scrolling`のサンプルプロジェクトです。
+`Angular CDK` に追加された `Virtual Scrolling`機能を使用したサンプルプロジェクトです。
 
 # 実行環境
 
@@ -34,11 +34,11 @@ npm start
 
 ## 4. 実行結果  
 
-### Basic Scroll
+### Basic Scrolling
 
 ![vs1](https://user-images.githubusercontent.com/2668146/47263364-21b38500-d53b-11e8-8af4-d7deee0a2583.gif)
 
-### Virtual Scroll
+### Virtual Scrolling
 
 ![vs2](https://user-images.githubusercontent.com/2668146/47263370-3728af00-d53b-11e8-839a-a6d949f29366.gif)
 

@@ -1,48 +1,48 @@
-# 概要
+# Overview
 
-`Angular CDK` に追加された `VirtualScroll`のサンプルプロジェクトです。
+`Angular CDK` に追加された `Virtual Scrolling`機能を使用したサンプルプロジェクトです。
 
-# 実行環境
+# System requirements
 
 * Node.js 10.9.x
 
-# 使用ライブラリ
+# Used library
 
 * Angular 7.0.x
 * Angular CDK 7.0.x
 
-# 動作確認  
+# Operation check  
 
-## 1. サンプルのダウンロード
+## 1. Download Sample
 
 ```
 git clone git@github.com:yasu-s/ng-virtualscroll-sample.git
 ```
 
-## 2. パッケージインストール  
+## 2. Installing packages  
 
 ```
 cd ng-virtualscroll-sample
 npm install
 ```
 
-## 3. サンプルの起動  
+## 3. Launch sample application  
 
 ```
 npm start
 ```
 
-## 4. 実行結果  
+## 4. Execution result  
 
-### Basic Scroll
+### Basic Scrolling
 
 ![vs1](https://user-images.githubusercontent.com/2668146/47263364-21b38500-d53b-11e8-8af4-d7deee0a2583.gif)
 
-### Virtual Scroll
+### Virtual Scrolling
 
 ![vs2](https://user-images.githubusercontent.com/2668146/47263370-3728af00-d53b-11e8-839a-a6d949f29366.gif)
 
-# サンプルソース
+# Sample source
 
 ## src/app/app.module.ts
 
