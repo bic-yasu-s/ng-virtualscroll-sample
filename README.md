@@ -1,6 +1,6 @@
 # Overview
 
-`Angular CDK` に追加された `Virtual Scrolling`機能を使用したサンプルプロジェクトです。
+This is a sample project using the `Virtual Scrolling` feature for `Angular CDK`.
 
 # System requirements
 
